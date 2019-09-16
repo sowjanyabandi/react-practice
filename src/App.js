@@ -2,13 +2,15 @@ import React from "react";
 //import logo from "./logo.svg";
 import "./App.css";
 import Title from "./components/Title";
-import LightSwitch from "./components/LightSwitch";
+import Scoreboard from "./components/Scoreboard";
+//import LightSwitch from "./components/LightSwitch";
 function App() {
   return (
     <div className="App">
       <main>
-        <Title a="Hello " />
-        <LightSwitch s="sampath garu" />
+        <Title a="Scoreboard App " />
+        <Scoreboard />
+        {/* <LightSwitch s="sampath garu" /> */}
       </main>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
